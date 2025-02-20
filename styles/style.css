@@ -1,0 +1,61 @@
+@font-face{
+    font-family: 'NotoSans';
+    src:  url('https://cdn.jsdelivr.net/gh/Le-Minerva/fonts/NotoSans/NotoSans-Italic-VariableFont_wdth,wght.svg') format('svg');
+    src:  url('https://cdn.jsdelivr.net/gh/Le-Minerva/fonts/NotoSans/NotoSans-Italic-VariableFont_wdth,wght.ttf') format('ttf');
+    src:  url('https://cdn.jsdelivr.net/gh/Le-Minerva/fonts/NotoSans/NotoSans-Italic-VariableFont_wdth,wght.woff2') format('woff2');
+    src:  url('https://cdn.jsdelivr.net/gh/Le-Minerva/fonts/NotoSans/NotoSans-Italic-VariableFont_wdth,wght.woff') format('woff');
+    src:  url('https://cdn.jsdelivr.net/gh/Le-Minerva/fonts/NotoSans/NotoSans-Italic-VariableFont_wdth,wght.eot') format('eot');
+
+    src:  url('https://cdn.jsdelivr.net/gh/Le-Minerva/fonts/NotoSans/NotoSans-VariableFont_wdth,wght.svg') format('svg');
+    src:  url('https://cdn.jsdelivr.net/gh/Le-Minerva/fonts/NotoSans/NotoSans-VariableFont_wdth,wght.ttf') format('ttf');
+    src:  url('https://cdn.jsdelivr.net/gh/Le-Minerva/fonts/NotoSans/NotoSans-VariableFont_wdth,wght.woff2') format('woff2');
+    src:  url('https://cdn.jsdelivr.net/gh/Le-Minerva/fonts/NotoSans/NotoSans-VariableFont_wdth,wght.woff') format('woff');
+    src:  url('https://cdn.jsdelivr.net/gh/Le-Minerva/fonts/NotoSans/NotoSans-VariableFont_wdth,wght.eot') format('eot');
+    }
+
+html {
+    background-color: #5985af;
+}
+
+
+body{
+    font-family:'NotoSans';
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #fdce8c;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><circle cx="12" cy="12" r="10" fill="red"/></svg>'), auto;
+}
+
+p {
+    color: aquamarine;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;
+    font-size: 60px;
+    text-align: center;
+  }
+  
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+button {
+    display: block;
+    margin: 10px auto;
+}
+  

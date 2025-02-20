@@ -1,0 +1,22 @@
+/* 定义拖尾元素的样式 */
+.trail {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #ff8400;
+    border-radius: 100%;
+    pointer-events: none;
+    animation: fadeOut 1s ease-out forwards;
+}
+
+/* 定义淡入淡出的动画效果 */
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(0);
+    }
+}
